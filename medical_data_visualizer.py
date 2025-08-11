@@ -14,7 +14,6 @@ df['overweight'] = (df['weight'] / (df['height'] / 100) ** 2 > 25).astype(int)
 df['cholesterol'] = (df['cholesterol'] > 1).astype(int)
 df['gluc'] = (df['gluc'] > 1).astype(int)
 
-git init
 
 # Draw Categorical Plot
 def draw_cat_plot():
